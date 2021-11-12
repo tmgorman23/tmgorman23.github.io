@@ -1,4 +1,4 @@
-# Welcome to Thomas Gorman's Homepage V0.1
+# Welcome to Thomas Gorman's Homepage V0.6
 
 # Projects
 
@@ -15,7 +15,7 @@ In FAME, you start your journey to become a music star with nothing but $20 and 
 
 Specialized mathematical formulas help provide a smooth experience and allows for an increase of the rate of growth as you play the game.
 
-`code example
+
                 else if (selectedItem.Name == "Perform")
                 {
                     Random rnd = new Random();
@@ -27,13 +27,13 @@ Specialized mathematical formulas help provide a smooth experience and allows fo
                     WriteLine($"You performed a concert and earned ${moneyEarned} and gained {fansGained} fan(s).");
                     timesPerformed++;
                 }
- `
+
 
 ### Random Events
 
 Being a musician has its challenges, so the game reflects this through random chances. Your guitar strings can break! But it isn't all bad, once you're popular enough, you may also be invited to come onto a late night talk show, festival, or more!
 
-``code example 2
+                    code example 2
                     Random rnd1 = new Random();
                     Random rnd2 = new Random();
                     if (rnd2.Next(16) == rnd1.Next(16))
@@ -47,9 +47,9 @@ Being a musician has its challenges, so the game reflects this through random ch
                         Utility.DelayUser();
                         ViewLocations();
                     };
-``
 
-```code ex 3
+![Image](https://github.com/tmgorman23/tmgorman23.github.io/blob/main/images/famerandom.PNG)
+
                     public void RandomEvent()
                     {
                         //random events to speed up gameplay
@@ -94,7 +94,7 @@ Being a musician has its challenges, so the game reflects this through random ch
 
                             Utility.DelayUser();
                         }
- ```
+
                     
 You can use the [editor on GitHub](https://github.com/tmgorman23/tmgorman23.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
