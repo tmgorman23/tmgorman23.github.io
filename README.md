@@ -1,4 +1,4 @@
-# Welcome to Thomas Gorman's Homepage V.03
+# Welcome to Thomas Gorman's Homepage V.04
 
 # Projects
 
@@ -8,8 +8,8 @@
 
 In FAME, you start your journey to become a music star with nothing but $20 and an old acoustic guitar. You must amass one million followers over the course of your journey. Perform, record, and survive the journey of being a musician! Good luck!
 
-![Image]"https://github.com/tmgorman23/tmgorman23.github.io/blob/main/images/famehome.PNG"
-![Image]"https://github.com/tmgorman23/tmgorman23.github.io/blob/main/images/famelocations.PNG"
+![Image](https://github.com/tmgorman23/tmgorman23.github.io/blob/main/images/famehome.PNG)
+![Image](https://github.com/tmgorman23/tmgorman23.github.io/blob/main/images/famelocations.PNG)
 
 ### The more fans you have... the more you gain!
 
