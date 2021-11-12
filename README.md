@@ -8,8 +8,8 @@
 
 In FAME, you start your journey to become a music star with nothing but $20 and an old acoustic guitar. You must amass one million followers over the course of your journey. Perform, record, and survive the journey of being a musician! Good luck!
 
-!"/images/famehome.png?raw=true"
-!"/images/famelocations.png?raw=true"
+![Image]"/images/famehome.png?raw=true"
+![Image]"/images/famelocations.png?raw=true"
 
 ### The more fans you have... the more you gain!
 
