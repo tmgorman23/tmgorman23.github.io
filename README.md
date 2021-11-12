@@ -1,4 +1,4 @@
-# Welcome to Thomas Gorman's Homepage V0.6
+# Welcome to Thomas Gorman's Homepage V0.7
 
 # Projects
 
