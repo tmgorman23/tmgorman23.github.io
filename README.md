@@ -1,4 +1,4 @@
-# Welcome to Thomas Gorman's Homepage V0.7
+# Welcome to Thomas Gorman's Homepage V1.0
 
 # Projects
 
@@ -96,29 +96,38 @@ Being a musician has its challenges, so the game reflects this through random ch
                         }
 
                     
-You can use the [editor on GitHub](https://github.com/tmgorman23/tmgorman23.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Tip Calculator
 
-### Markdown
+### A concise tip calculator that doesn't waste your time.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Image](https://github.com/tmgorman23/tmgorman23.github.io/blob/main/images/tipcalchome.PNG?raw=true)
 
-```markdown
-Syntax highlighted code block
+Enter the total bill amount and the desired tip percentage and quickly get an answer.
 
-# Header 1
-## Header 2
-### Header 3
+![Image](https://github.com/tmgorman23/tmgorman23.github.io/blob/main/images/tipcalcexample.PNG?raw=true)
 
-- Bulleted
-- List
+And don't worry about any mistakes, we'll let you know.
 
-1. Numbered
-2. List
+![Image](https://github.com/tmgorman23/tmgorman23.github.io/blob/main/images/tipcalcerror.PNG?raw=true)
 
-**Bold** and _Italic_ and `Code` text
+            bool billSuccess = double.TryParse(BillAmountTextBox.Text, out billAmount);
+            if (billSuccess)
+            {
+                Console.WriteLine($"Converted {BillAmountTextBox.Text} to {billAmount}");
+            }
+            else
+            {
+                ErrorTextBoxBill.Text = "Error: Please enter a number without any symbols or letters.";
+                InitializeComponent();
+            }
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
+            bool tipSuccess = double.TryParse(TipAmountTextBox.Text, out tipPercentage);
+            if (tipSuccess)
+            {
+                Console.WriteLine($"Converted {TipAmountTextBox.Text} to {tipPercentage}");
+            }
+            else
+            {
+                ErrorTextBoxTip.Text = "Error: Please enter a number without any symbols or letters.";
+                InitializeComponent();
+            }
