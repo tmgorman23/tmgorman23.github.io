@@ -14,7 +14,7 @@ In FAME, you start your journey to become a music star with nothing but $20 and 
 Specialized mathematical formulas help provide a smooth experience and allows for an increase of the rate of growth as you play the game.
 
 ```code example
-else if (selectedItem.Name == "Perform")
+                else if (selectedItem.Name == "Perform")
                 {
                     Random rnd = new Random();
                     double moneyEarned = rnd.Next(20 * (timesPerformed + 1) * (epsReleased / 3 + 1) * ((albumsReleased + 1)) * (showmanship + 1));
