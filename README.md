@@ -25,7 +25,7 @@ else if (selectedItem.Name == "Perform")
                     WriteLine($"You performed a concert and earned ${moneyEarned} and gained {fansGained} fan(s).");
                     timesPerformed++;
                 }
-```
+ ```
 
 ### Random Events
 
@@ -93,7 +93,7 @@ Being a musician has its challenges, so the game reflects this through random ch
 
                 Utility.DelayUser();
             }
-```
+ ```
                     
 You can use the [editor on GitHub](https://github.com/tmgorman23/tmgorman23.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
